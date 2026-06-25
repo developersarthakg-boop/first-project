@@ -1,5 +1,6 @@
 import React from 'react'
 import Counter from './Counter'
+import RevisonCounter from './RevisonCounter'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     <Counter />
     <Apple />
     <Cars />
+    <RevisonCounter />
     </div>
   )
 }
