@@ -13,6 +13,7 @@ function App() {
 
       <Cars />
       <RevisonCounter />
+      <Geeky />
     </div>
   );
 }
@@ -30,6 +31,15 @@ function Cars() {
     <div>
       <h2>10 lakhs cars sold in a minute</h2>
     </div>
+  );
+}
+
+function Geeky() {
+  return (
+    <>
+      <h4>Hello Guru ji Geeksy</h4>
+      <h2>Hello Guru ji Sarthak Pandat ji</h2>
+    </>
   );
 }
 
