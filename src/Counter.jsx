@@ -1,15 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 function Counter() {
-    const [count,setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
   return (
-    <div><h1>Counter  {count}</h1>
+    <div>
+      <h1>Counter {count}</h1>
 
-    <button onClick = {() => setCount(count+1)}>Increment</button>
-    <button onClick = {() => setCount(count-1)}>Decrement</button>
-</div>
-  )
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <button onClick={() => alert("THe button is clicked")}>Clicked</button>
+    </div>
+  );
 }
 
-export default Counter
+export default Counter;
+
+export const userName = "Sarthak Tripathi";

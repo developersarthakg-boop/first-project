@@ -1,6 +1,8 @@
 import React from "react";
-import Counter from "./Counter";
+import Counter, { userName } from "./Counter";
 import RevisonCounter from "./RevisonCounter";
+import VariableUse from "./VariableUse";
+import Arrey from "./Arrey";
 
 function App() {
   return (
@@ -13,7 +15,10 @@ function App() {
 
       <Cars />
       <RevisonCounter />
+      <h2>Hello {userName}</h2>
       <Geeky />
+      <VariableUse />
+      <Arrey />
     </div>
   );
 }
