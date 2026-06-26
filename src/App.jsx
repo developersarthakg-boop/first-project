@@ -3,6 +3,7 @@ import Counter, { userName } from "./Counter";
 import RevisonCounter from "./RevisonCounter";
 import VariableUse from "./VariableUse";
 import Arrey from "./Arrey";
+import States from "./States";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Geeky />
       <VariableUse />
       <Arrey />
+      <States />
     </div>
   );
 }
